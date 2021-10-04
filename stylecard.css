@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#btn{
+    display: none;
+}
+
+.card{
+    max-width: 600px;
+    max-height: 600px;
+    margin: 0 auto;
+}
+
+.nameDriver{
+    text-align: center;
+}
+
+.driver{
+    display: block;
+    margin: 0 auto
+}
+
+.desc{
+    display: none;
+}
+
+.esconder{
+    display: none;
+}
+
+.desc.mostrar{
+    display: block;
+}
+
+#info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 600px;
+    gap: 5px;
+    padding-top: 10px;
+}
+
+#info > .desc.mostrar{
+    grid-column: 1/4;
+    display: block;
+}
+
+#info div{
+    border: black 2px solid;
+    border-radius: 6px;
+}
