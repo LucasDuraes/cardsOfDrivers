@@ -37,7 +37,7 @@
 #info{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 600px;
+    max-width: 600px;
     gap: 5px;
     padding-top: 10px;
 }
@@ -50,4 +50,13 @@
 #info div{
     border: black 2px solid;
     border-radius: 6px;
+}
+
+#allcards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 5px;
 }
