@@ -1,4 +1,8 @@
 const btnmobile = document.getElementById('btn')
+const card = document.getElementById('card')
+
+card.addEventListener('mouseenter', btnto)
+card.removeEventListener('mouseout', btnto)
 
 function btnto() {
     
