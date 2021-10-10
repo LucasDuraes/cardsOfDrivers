@@ -18,10 +18,6 @@ function btnto(namedriver) {
 
 }
 
-function  descobrir(driver) {
-    console.log(driver);
-}
-
 /*
 function btnto(namedriver) {
 

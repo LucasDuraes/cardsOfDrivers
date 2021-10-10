@@ -3,7 +3,7 @@
     margin: 0px;
 }
 
-#btn{
+button{
     display: none;
 }
 
@@ -59,4 +59,43 @@
     margin: 0 auto;
     align-items: center;
     gap: 5px;
+}
+
+.card .moreinfo{
+    display: none;
+}
+
+.card:hover .moreinfo{
+    display: block;
+    color: black;
+    text-align: center;
+}
+
+#formoreinfo{
+    display: none;
+}
+
+@media (max-width:600px){
+
+    #formoreinfo{
+        display: block;
+        color: black;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #allcards{
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        gap: 5px;
+    }
+
+    #allcards .allcardsDiv{
+        padding-top: 10px;
+    }
+
+    .card:hover .moreinfo{
+        display: none;
+    }
 }
